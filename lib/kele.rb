@@ -1,8 +1,4 @@
-require 'HTTParty'
-require 'pp'
-
 class Kele
-    include HTTParty
 
     def initialize(email, password)
         @email = email
