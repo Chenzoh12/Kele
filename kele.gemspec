@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
     s.homepage      =
     'http://rubygems.org/gems/kele'
     s.license       = 'MIT'
-    s.add_ru
+    s.add_runtime_dependency 'httparty', '~> 0.13'
 end
    
